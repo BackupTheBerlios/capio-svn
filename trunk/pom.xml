@@ -65,7 +65,7 @@
   <modules>
           <module>modules/domain</module>
           <module>modules/clients/swing</module>
-	  <module>modules/clients/web</module>
+	  <!--module>modules/clients/web</module-->
   </modules>
   
   
