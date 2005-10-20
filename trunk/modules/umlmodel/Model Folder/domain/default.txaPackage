@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<node uin="-tdsqjueeyj3bf0m76u2d">
+		<property name="$metaclass" value="Class20"/>
+		<property name="$name" value="Video"/>
+		<property name="mod__extends" value="Rental"/>
+		<link uin="ieje0reeyjba0p-2o0w0c">
+			<property name="$metaclass" value="Generalization20"/>
+			<property name="mod__cachedBaseName" value="Rental"/>
+			<participant referencedUin="design:node:::-tdsqjueeyj3bf0m76u2d" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjueeyj53mnnt7qh0" role="Supplier"></participant>
+		</link>
+		<node uin="hnimszeeykmsxl-p6zido">
+			<property name="$metaclass" value="Property20"/>
+			<property name="$name" value="price"/>
+			<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.Float"/>
+			<property name="mod__type" value="Float"/>
+			<link uin="ieje0reeykngfy-sr7wq2">
+				<property name="$metaclass" value="TypeLink"/>
+				<participant referencedUin="design:node:::hnimszeeykmsxl-p6zido:-tdsqjueeyj3bf0m76u2d" role="Client"></participant>
+				<participant referencedUin="design:node:::PrimitiveType.Float" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="hnimszeeykpeh8-c58lrw">
+			<property name="$metaclass" value="Property20"/>
+			<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.Date"/>
+			<property name="mod__type" value="Date"/>
+			<property name="$name" value="endOfRent"/>
+			<link uin="ieje0reeykpxvk9pmbag">
+				<property name="$metaclass" value="TypeLink"/>
+				<participant referencedUin="design:node:::hnimszeeykpeh8-c58lrw:-tdsqjueeyj3bf0m76u2d" role="Client"></participant>
+				<participant referencedUin="design:node:::PrimitiveType.Date" role="Supplier"></participant>
+			</link>
+		</node>
+	</node>
+	<node uin="-tdsqjueeyj3mp9izhusl">
+		<property name="$metaclass" value="Class20"/>
+		<property name="$name" value="Dvd"/>
+		<property name="mod__extends" value="Rental"/>
+		<link uin="ieje0reeyj5ozqe5nnn4">
+			<property name="$metaclass" value="Generalization20"/>
+			<property name="mod__cachedBaseName" value="Rental"/>
+			<participant referencedUin="design:node:::-tdsqjueeyj3mp9izhusl" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjueeyj53mnnt7qh0" role="Supplier"></participant>
+		</link>
+		<node uin="dwnekeeyknj6h-jthxdx">
+			<property name="$metaclass" value="Property20"/>
+			<property name="$name" value="price"/>
+			<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.Float"/>
+			<property name="mod__type" value="Float"/>
+			<link uin="aw0hjeeyknj6hykv20p">
+				<property name="$metaclass" value="TypeLink"/>
+				<participant referencedUin="design:node:::dwnekeeyknj6h-jthxdx:-tdsqjueeyj3mp9izhusl" role="Client"></participant>
+				<participant referencedUin="design:node:::PrimitiveType.Float" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="4iztbeeykqrqn-n0dcfy">
+			<property name="$metaclass" value="Property20"/>
+			<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.Date"/>
+			<property name="mod__type" value="Date"/>
+			<property name="$name" value="endOfRent"/>
+			<link uin="17n50eeykqrqn-f33ibh">
+				<property name="$metaclass" value="TypeLink"/>
+				<participant referencedUin="design:node:::4iztbeeykqrqn-n0dcfy:-tdsqjueeyj3mp9izhusl" role="Client"></participant>
+				<participant referencedUin="design:node:::PrimitiveType.Date" role="Supplier"></participant>
+			</link>
+		</node>
+	</node>
+	<node uin="-tdsqjueeyj3rsuemt9r3">
+		<property name="$metaclass" value="Class20"/>
+		<property name="$name" value="Playstation"/>
+		<property name="mod__extends" value="Rental"/>
+		<link uin="ieje0reeyj5qqocarc2n">
+			<property name="$metaclass" value="Generalization20"/>
+			<property name="mod__cachedBaseName" value="Rental"/>
+			<participant referencedUin="design:node:::-tdsqjueeyj3rsuemt9r3" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjueeyj53mnnt7qh0" role="Supplier"></participant>
+		</link>
+		<node uin="dwnekeeyknlt3-6xa3uf">
+			<property name="$metaclass" value="Property20"/>
+			<property name="$name" value="price"/>
+			<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.Float"/>
+			<property name="mod__type" value="Float"/>
+			<link uin="aw0hjeeyknlt39952qb">
+				<property name="$metaclass" value="TypeLink"/>
+				<participant referencedUin="design:node:::dwnekeeyknlt3-6xa3uf:-tdsqjueeyj3rsuemt9r3" role="Client"></participant>
+				<participant referencedUin="design:node:::PrimitiveType.Float" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="4iztbeeykqsej-80rjjc">
+			<property name="$metaclass" value="Property20"/>
+			<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.Date"/>
+			<property name="mod__type" value="Date"/>
+			<property name="$name" value="endOfRent"/>
+			<link uin="17n50eeykqsejt7m3p5">
+				<property name="$metaclass" value="TypeLink"/>
+				<participant referencedUin="design:node:::4iztbeeykqsej-80rjjc:-tdsqjueeyj3rsuemt9r3" role="Client"></participant>
+				<participant referencedUin="design:node:::PrimitiveType.Date" role="Supplier"></participant>
+			</link>
+		</node>
+	</node>
+	<node uin="-tdsqjueeyj4inf-gqeb4a">
+		<property name="$metaclass" value="Class20"/>
+		<property name="$name" value="Xbox"/>
+		<property name="mod__extends" value="Rental"/>
+		<link uin="ieje0reeyj5sn9-4csvz7">
+			<property name="$metaclass" value="Generalization20"/>
+			<property name="mod__cachedBaseName" value="Rental"/>
+			<participant referencedUin="design:node:::-tdsqjueeyj4inf-gqeb4a" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjueeyj53mnnt7qh0" role="Supplier"></participant>
+		</link>
+		<node uin="dwnekeeyknoirligg5u">
+			<property name="$metaclass" value="Property20"/>
+			<property name="$name" value="price"/>
+			<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.Float"/>
+			<property name="mod__type" value="Float"/>
+			<link uin="aw0hjeeyknoir-o4wub0">
+				<property name="$metaclass" value="TypeLink"/>
+				<participant referencedUin="design:node:::dwnekeeyknoirligg5u:-tdsqjueeyj4inf-gqeb4a" role="Client"></participant>
+				<participant referencedUin="design:node:::PrimitiveType.Float" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="4iztbeeykqt9s-nj92nu">
+			<property name="$metaclass" value="Property20"/>
+			<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.Date"/>
+			<property name="mod__type" value="Date"/>
+			<property name="$name" value="endOfRent"/>
+			<link uin="17n50eeykqt9s-jmjdij">
+				<property name="$metaclass" value="TypeLink"/>
+				<participant referencedUin="design:node:::4iztbeeykqt9s-nj92nu:-tdsqjueeyj4inf-gqeb4a" role="Client"></participant>
+				<participant referencedUin="design:node:::PrimitiveType.Date" role="Supplier"></participant>
+			</link>
+		</node>
+	</node>
+	<node uin="-tdsqjueeyj4nc913tgoh">
+		<property name="$metaclass" value="Class20"/>
+		<property name="$name" value="Game"/>
+		<property name="mod__extends" value="Rental"/>
+		<link uin="ieje0reeyjb4bf-f0abon">
+			<property name="$metaclass" value="Generalization20"/>
+			<property name="mod__cachedBaseName" value="Rental"/>
+			<participant referencedUin="design:node:::-tdsqjueeyj4nc913tgoh" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjueeyj53mnnt7qh0" role="Supplier"></participant>
+		</link>
+		<node uin="dwnekeeyknpt711vnbt">
+			<property name="$metaclass" value="Property20"/>
+			<property name="$name" value="price"/>
+			<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.Float"/>
+			<property name="mod__type" value="Float"/>
+			<link uin="aw0hjeeyknpt768rs64">
+				<property name="$metaclass" value="TypeLink"/>
+				<participant referencedUin="design:node:::dwnekeeyknpt711vnbt:-tdsqjueeyj4nc913tgoh" role="Client"></participant>
+				<participant referencedUin="design:node:::PrimitiveType.Float" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="4iztbeeykqtztoovlsi">
+			<property name="$metaclass" value="Property20"/>
+			<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.Date"/>
+			<property name="mod__type" value="Date"/>
+			<property name="$name" value="endOfRent"/>
+			<link uin="17n50eeykqtztx7pcly">
+				<property name="$metaclass" value="TypeLink"/>
+				<participant referencedUin="design:node:::4iztbeeykqtztoovlsi:-tdsqjueeyj4nc913tgoh" role="Client"></participant>
+				<participant referencedUin="design:node:::PrimitiveType.Date" role="Supplier"></participant>
+			</link>
+		</node>
+	</node>
+	<node uin="-tdsqjueeyj53mnnt7qh0">
+		<property name="$metaclass" value="Class20"/>
+		<property name="$name" value="Rental"/>
+		<property name="@stereotype" value="aggregate root"/>
+		<node uin="hnimszeeyj6p5e8ofpc0">
+			<property name="$metaclass" value="Property20"/>
+			<property name="mod_Visibility" value="$packageLocal"/>
+			<property name="$name" value="id"/>
+			<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.String"/>
+			<property name="mod__type" value="String"/>
+			<link uin="ieje0reeyj7awttz6qu0">
+				<property name="$metaclass" value="TypeLink"/>
+				<participant referencedUin="design:node:::hnimszeeyj6p5e8ofpc0:-tdsqjueeyj53mnnt7qh0" role="Client"></participant>
+				<participant referencedUin="design:node:::PrimitiveType.String" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="hnimszeeyjsmsh-7psqih">
+			<property name="$metaclass" value="Property20"/>
+			<property name="$name" value="title"/>
+			<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.String"/>
+			<property name="mod__type" value="String"/>
+			<link uin="ieje0reeyjt7ka-6ypz76">
+				<property name="$metaclass" value="TypeLink"/>
+				<participant referencedUin="design:node:::hnimszeeyjsmsh-7psqih:-tdsqjueeyj53mnnt7qh0" role="Client"></participant>
+				<participant referencedUin="design:node:::PrimitiveType.String" role="Supplier"></participant>
+			</link>
+		</node>
+		<link uin="ieje0reeykvyks6oqfm7">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="@directed" value="true"/>
+			<participant referencedUin="design:node:::-tdsqjueeyj53mnnt7qh0" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjueeykruvy-ng6huy" role="Supplier"></participant>
+		</link>
+	</node>
+	<node uin="unnjmseeyj660lmszxu6">
+		<property name="$metaclass" value="DataType"/>
+		<property name="$name" value="DataType1"/>
+	</node>
+	<node uin="-tdsqjueeyj80af-u38dag">
+		<property name="$metaclass" value="Class20"/>
+		<property name="$name" value="Customer"/>
+		<property name="@stereotype" value="entity"/>
+		<property name="mod__extends" value="Person"/>
+		<node uin="2hkq6eeyjjvyprm7sup">
+			<property name="$metaclass" value="Property20"/>
+			<property name="mod_Visibility" value="$public"/>
+			<property name="$name" value="id"/>
+			<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.String"/>
+			<property name="mod__type" value="String"/>
+			<link uin="ejtdfeeyjjvype88do9">
+				<property name="$metaclass" value="TypeLink"/>
+				<participant referencedUin="design:node:::2hkq6eeyjjvyprm7sup:-tdsqjueeyj80af-u38dag" role="Client"></participant>
+				<participant referencedUin="design:node:::PrimitiveType.String" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="hnimszeeyjfxlp-uoc76g">
+			<property name="$metaclass" value="Property20"/>
+			<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.Integer"/>
+			<property name="mod__type" value="Integer"/>
+			<property name="mod_Visibility" value="$public"/>
+			<property name="lower" value="1"/>
+			<property name="upper" value="1"/>
+			<property name="multiplicity" value="1"/>
+			<property name="$name" value="socialsecurityNumber"/>
+			<link uin="ieje0reeyjfxlp-9g4485">
+				<property name="$metaclass" value="TypeLink"/>
+				<participant referencedUin="design:node:::hnimszeeyjfxlp-uoc76g:-tdsqjueeyj80af-u38dag" role="Client"></participant>
+				<participant referencedUin="design:node:::PrimitiveType.Integer" role="Supplier"></participant>
+			</link>
+		</node>
+		<link uin="ieje0ref01xcn3-6yzrwd">
+			<property name="$metaclass" value="Generalization20"/>
+			<property name="mod__cachedBaseName" value="Person"/>
+			<participant referencedUin="design:node:::-tdsqjueeyj80af-u38dag" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjuef01wxe2-38b9co" role="Supplier"></participant>
+		</link>
+	</node>
+	<node uin="-tdsqjueeyj8xlnk3whk9">
+		<property name="$metaclass" value="Class20"/>
+		<property name="$name" value="Address"/>
+		<property name="@stereotype" value="value object"/>
+		<node uin="hnimszeeyjk37zw1pldl">
+			<property name="$metaclass" value="Property20"/>
+			<property name="$name" value="id"/>
+			<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.String"/>
+			<property name="mod__type" value="String"/>
+			<link uin="ieje0reeyjrt4bf5tgv5">
+				<property name="$metaclass" value="TypeLink"/>
+				<participant referencedUin="design:node:::hnimszeeyjk37zw1pldl:-tdsqjueeyj8xlnk3whk9" role="Client"></participant>
+				<participant referencedUin="design:node:::PrimitiveType.String" role="Supplier"></participant>
+			</link>
+		</node>
+	</node>
+	<node uin="-tdsqjueeyjkjky-wzihuc">
+		<property name="$metaclass" value="Class20"/>
+		<property name="$name" value="Store"/>
+		<property name="@stereotype" value="entity"/>
+		<link uin="ieje0reeyjlsrp-1if8xr">
+			<property name="associatesType" value="aggregation"/>
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="composition" value=""/>
+			<property name="aggregation" value=""/>
+			<participant referencedUin="design:node:::-tdsqjueeyjkjky-wzihuc" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjueeyj53mnnt7qh0" role="Supplier"></participant>
+		</link>
+		<node uin="hnimszeeyjnqjup5m4sf">
+			<property name="$metaclass" value="Property20"/>
+			<property name="aggregationKind" value="$aggregationNone"/>
+			<property name="$name" value="id"/>
+			<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.String"/>
+			<property name="mod__type" value="String"/>
+			<link uin="ieje0reeyjrml3-ev4te5">
+				<property name="$metaclass" value="TypeLink"/>
+				<participant referencedUin="design:node:::hnimszeeyjnqjup5m4sf:-tdsqjueeyjkjky-wzihuc" role="Client"></participant>
+				<participant referencedUin="design:node:::PrimitiveType.String" role="Supplier"></participant>
+			</link>
+		</node>
+		<link uin="ieje0reeyjo8c1-j23683">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="$name" value="has"/>
+			<participant referencedUin="design:node:::-tdsqjueeyjkjky-wzihuc" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjueeyj8xlnk3whk9" role="Supplier"></participant>
+		</link>
+	</node>
+	<node uin="-tdsqjueeyju7o7zfja53">
+		<property name="$metaclass" value="Class20"/>
+		<property name="$name" value="Owner"/>
+		<property name="@stereotype" value="entity"/>
+		<property name="mod__extends" value="Person"/>
+		<node uin="22r30eeykhowl8ji12w">
+			<property name="$metaclass" value="Property20"/>
+			<property name="aggregationKind" value="$aggregationNone"/>
+			<property name="$name" value="id"/>
+			<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.String"/>
+			<property name="mod__type" value="String"/>
+			<link uin="8eyd0eeykhowlk14h2r">
+				<property name="$metaclass" value="TypeLink"/>
+				<participant referencedUin="design:node:::22r30eeykhowl8ji12w:-tdsqjueeyju7o7zfja53" role="Client"></participant>
+				<participant referencedUin="design:node:::PrimitiveType.String" role="Supplier"></participant>
+			</link>
+		</node>
+		<link uin="ieje0ref01x97e-10qsh5">
+			<property name="$metaclass" value="Generalization20"/>
+			<property name="mod__cachedBaseName" value="Person"/>
+			<participant referencedUin="design:node:::-tdsqjueeyju7o7zfja53" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjuef01wxe2-38b9co" role="Supplier"></participant>
+		</link>
+	</node>
+	<node uin="ttifwdeeyjvac5-iloxn0">
+		<property name="$metaclass" value="Constraint"/>
+		<property name="$name" value="Constraint1"/>
+		<node uin="ul14qaeeyjvad0msl5i2">
+			<property name="$metaclass" value="ValueSpecification"/>
+			<property name="$name" value="ValueSpecification1"/>
+			<property name="language" value="ocl"/>
+			<property name="body" value="no rentals without store"/>
+		</node>
+	</node>
+	<node uin="-tdsqjueeykruvy-ng6huy">
+		<property name="$metaclass" value="Class20"/>
+		<property name="$name" value="Label"/>
+		<property name="@stereotype" value="entity"/>
+	</node>
+	<node uin="-tdsqjuef01wxe2-38b9co">
+		<property name="$metaclass" value="Class20"/>
+		<property name="$name" value="Person"/>
+		<link uin="3eodxef01y1vy-a76q7k">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="aggregation" value=""/>
+			<property name="@directed" value="true"/>
+			<participant referencedUin="design:node:::-tdsqjuef01wxe2-38b9co" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjueeyj8xlnk3whk9" role="Supplier"></participant>
+		</link>
+		<link uin="1x0f4ef022h3qcp05c9">
+			<property name="associatesType" value="aggregation"/>
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="aggregation" value=""/>
+			<property name="@directed" value="true"/>
+			<participant referencedUin="design:node:::-tdsqjuef01wxe2-38b9co" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjueeyj53mnnt7qh0" role="Supplier"></participant>
+		</link>
+		<link uin="hsxo2ef022vstnoo3z9">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="@directed" value="true"/>
+			<participant referencedUin="design:node:::-tdsqjuef01wxe2-38b9co" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjueeykruvy-ng6huy" role="Supplier"></participant>
+		</link>
+	</node>
+</nodeSet>
